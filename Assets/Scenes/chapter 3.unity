@@ -666,7 +666,6 @@ GameObject:
   - component: {fileID: 1462685395}
   - component: {fileID: 1462685397}
   - component: {fileID: 1462685396}
-  - component: {fileID: 1462685398}
   m_Layer: 0
   m_Name: Tilemap invi
   m_TagString: Untagged
@@ -8333,20 +8332,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1462685398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462685394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 1662102844}
-  parallaxEffect: 0.4
 --- !u!1 &1496844643
 GameObject:
   m_ObjectHideFlags: 0
@@ -8357,7 +8342,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1496844645}
   - component: {fileID: 1496844644}
-  - component: {fileID: 1496844646}
   - component: {fileID: 1496844647}
   m_Layer: 0
   m_Name: dead
@@ -8376,7 +8360,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 21.46118, y: -0.17272007}
@@ -8406,20 +8390,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1496844646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496844643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 1662102844}
-  parallaxEffect: 0.4
 --- !u!114 &1496844647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8528,7 +8498,6 @@ GameObject:
   - component: {fileID: 1621788915}
   - component: {fileID: 1621788914}
   - component: {fileID: 1621788913}
-  - component: {fileID: 1621788918}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -14552,20 +14521,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1621788918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621788911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 1662102844}
-  parallaxEffect: 0.4
 --- !u!1 &1652695168
 GameObject:
   m_ObjectHideFlags: 0
@@ -14576,7 +14531,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1652695171}
   - component: {fileID: 1652695170}
-  - component: {fileID: 1652695169}
   m_Layer: 0
   m_Name: sea
   m_TagString: Untagged
@@ -14584,20 +14538,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1652695169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652695168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 1662102844}
-  parallaxEffect: 0.4
 --- !u!212 &1652695170
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15022,7 +14962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690094670}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.65, y: 4.12, z: 0.9729996}
+  m_LocalPosition: {x: -8.24, y: 3.66, z: 0.9729996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

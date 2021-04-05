@@ -1360,7 +1360,6 @@ GameObject:
   m_Component:
   - component: {fileID: 444281876}
   - component: {fileID: 444281877}
-  - component: {fileID: 444281878}
   - component: {fileID: 444281879}
   m_Layer: 0
   m_Name: dead
@@ -1409,20 +1408,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 45.11076, y: 0.49110043}
   m_EdgeRadius: 0
---- !u!114 &444281878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444281875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 849432032}
-  parallaxEffect: 0.4
 --- !u!114 &444281879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2782,7 +2767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 401f27590e5358246a5f685a272ab677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 2
+  Speed: 1.5
   JumpForce: 200
 --- !u!70 &898758519
 CapsuleCollider2D:
@@ -2880,7 +2865,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898758516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.18, y: 2.36, z: 0.973}
+  m_LocalPosition: {x: 0.4, y: 1.57, z: 0.973}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 436481089}
@@ -3432,7 +3417,6 @@ GameObject:
   - component: {fileID: 1230457140}
   - component: {fileID: 1230457139}
   - component: {fileID: 1230457138}
-  - component: {fileID: 1230457143}
   m_Layer: 0
   m_Name: maped
   m_TagString: Untagged
@@ -4081,20 +4065,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1230457143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1230457136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 849432032}
-  parallaxEffect: 0.4
 --- !u!1 &1554514822
 GameObject:
   m_ObjectHideFlags: 0
@@ -4519,7 +4489,6 @@ GameObject:
   - component: {fileID: 1773848069}
   - component: {fileID: 1773848071}
   - component: {fileID: 1773848070}
-  - component: {fileID: 1773848075}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -5310,20 +5279,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1773848075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1773848068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 849432032}
-  parallaxEffect: 0.4
 --- !u!1 &1800783596
 GameObject:
   m_ObjectHideFlags: 0
@@ -5530,13 +5485,11 @@ GameObject:
   - component: {fileID: 1938155454}
   - component: {fileID: 1938155453}
   - component: {fileID: 1938155452}
-  - component: {fileID: 1938155455}
   - component: {fileID: 1938155460}
   - component: {fileID: 1938155459}
   - component: {fileID: 1938155458}
   - component: {fileID: 1938155457}
   - component: {fileID: 1938155456}
-  - component: {fileID: 1938155461}
   - component: {fileID: 1938155462}
   - component: {fileID: 1938155469}
   - component: {fileID: 1938155468}
@@ -5664,20 +5617,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6617453, y: 0.43840623}
   m_EdgeRadius: 0
---- !u!114 &1938155455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938155450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 849432032}
-  parallaxEffect: 0.4
 --- !u!61 &1938155456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5808,20 +5747,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.63552856, y: 0.32565618}
   m_EdgeRadius: 0
---- !u!114 &1938155461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938155450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 849432032}
-  parallaxEffect: 0.4
 --- !u!61 &1938155462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6753,7 +6678,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2026601603}
-  - component: {fileID: 2026601602}
   m_Layer: 0
   m_Name: seas
   m_TagString: Untagged
@@ -6761,20 +6685,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2026601602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026601601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1ee9dccdcfe6494f8c12e1f090f0eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 849432032}
-  parallaxEffect: 0.4
 --- !u!4 &2026601603
 Transform:
   m_ObjectHideFlags: 0
