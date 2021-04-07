@@ -27,11 +27,11 @@ A girl suffers for sending personal photos, to someone who should not, even so h
 
 Pathfinding whit A.I
 
-<img src="https://github.com/regalk13/The_Siltent_Side/blob/main/screenshots/Game-with-AI.gif" width="50%">
+<img src="https://github.com/regalk13/The_Siltent_Side/blob/main/screenshots/Game-with-AI.gif" width="60%">
 
 Great backgrounds and sounds, immersive experience
 
-<img src="https://github.com/regalk13/The_Siltent_Side/blob/main/screenshots/new-game.gif" width="50%">
+<img src="https://github.com/regalk13/The_Siltent_Side/blob/main/screenshots/new-game.gif" width="60%">
 
 ## Final Notes
 
