@@ -86,4 +86,12 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: barked
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: d0a15d8a6d4b5da41878dcab02cfff53,
+      type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

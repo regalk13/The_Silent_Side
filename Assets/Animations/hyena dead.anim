@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: hiti
+  m_Name: hyena dead
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,22 +20,22 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -6677945977672588449, guid: 0965ad5df2aa3194ebceaad07caf94aa,
+      value: {fileID: -8478427711171593115, guid: 701dcec0305015d40b061711fe630ad1,
         type: 3}
     - time: 0.083333336
-      value: {fileID: -8883239317587252966, guid: 0965ad5df2aa3194ebceaad07caf94aa,
+      value: {fileID: 4094097513583266264, guid: 701dcec0305015d40b061711fe630ad1,
         type: 3}
     - time: 0.16666667
-      value: {fileID: 4403830532000470531, guid: 0965ad5df2aa3194ebceaad07caf94aa,
+      value: {fileID: -8494239873324995667, guid: 701dcec0305015d40b061711fe630ad1,
         type: 3}
     - time: 0.25
-      value: {fileID: -202269839382625351, guid: 0965ad5df2aa3194ebceaad07caf94aa,
+      value: {fileID: -7052074958541673759, guid: 701dcec0305015d40b061711fe630ad1,
         type: 3}
     - time: 0.33333334
-      value: {fileID: -5313392916397558427, guid: 0965ad5df2aa3194ebceaad07caf94aa,
+      value: {fileID: -4013674126291260509, guid: 701dcec0305015d40b061711fe630ad1,
         type: 3}
     - time: 0.41666666
-      value: {fileID: -3335007645522571340, guid: 0965ad5df2aa3194ebceaad07caf94aa,
+      value: {fileID: -6475305636212064967, guid: 701dcec0305015d40b061711fe630ad1,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -56,12 +56,12 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -6677945977672588449, guid: 0965ad5df2aa3194ebceaad07caf94aa, type: 3}
-    - {fileID: -8883239317587252966, guid: 0965ad5df2aa3194ebceaad07caf94aa, type: 3}
-    - {fileID: 4403830532000470531, guid: 0965ad5df2aa3194ebceaad07caf94aa, type: 3}
-    - {fileID: -202269839382625351, guid: 0965ad5df2aa3194ebceaad07caf94aa, type: 3}
-    - {fileID: -5313392916397558427, guid: 0965ad5df2aa3194ebceaad07caf94aa, type: 3}
-    - {fileID: -3335007645522571340, guid: 0965ad5df2aa3194ebceaad07caf94aa, type: 3}
+    - {fileID: -8478427711171593115, guid: 701dcec0305015d40b061711fe630ad1, type: 3}
+    - {fileID: 4094097513583266264, guid: 701dcec0305015d40b061711fe630ad1, type: 3}
+    - {fileID: -8494239873324995667, guid: 701dcec0305015d40b061711fe630ad1, type: 3}
+    - {fileID: -7052074958541673759, guid: 701dcec0305015d40b061711fe630ad1, type: 3}
+    - {fileID: -4013674126291260509, guid: 701dcec0305015d40b061711fe630ad1, type: 3}
+    - {fileID: -6475305636212064967, guid: 701dcec0305015d40b061711fe630ad1, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -88,7 +88,15 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: barked
+    functionName: cri
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: d0a15d8a6d4b5da41878dcab02cfff53,
+      type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: dead
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: d0a15d8a6d4b5da41878dcab02cfff53,
       type: 3}

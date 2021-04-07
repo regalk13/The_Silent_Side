@@ -11,10 +11,20 @@ public class enemy : MonoBehaviour
     public bool Moveright;
 
     private float LastHit;
+    private AudioSource[] mysounds;
+
+    private AudioSource footstep;
+    private AudioSource bark;
+    private AudioSource cry;
     
     void Start()
     {
         Animator = GetComponent<Animator>();
+        mysounds = GetComponents<AudioSource>();
+
+        footstep = mysounds[0];
+        bark = mysounds[1];
+        cry = mysounds[2];
     }
 
     private void Update()
@@ -59,5 +69,31 @@ public class enemy : MonoBehaviour
                     Moveright = true;
                 }
             }
+
+            if(other.gameObject.CompareTag("ball"))
+            {
+                Animator.SetBool("dead", true);
+            }
         }
+    
+    private void dead()
+    {
+        Destroy(gameObject);
+    }
+
+    private void Footstep()
+    {
+        footstep.Play();
+    }
+
+    private void barked()
+    {
+        bark.Play();
+    }
+
+    private void cri()
+    {
+        cry.Play();
+    }
+
 }

@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: 81ee6591cac19ea4a98f5eea36551ac6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8549809111975043347
+    second: power ball-Sheet_0
+  - first:
+      213: -67578232759728494
+    second: power ball-Sheet_1
+  - first:
+      213: 2113247035374263915
+    second: power ball-Sheet_2
+  - first:
+      213: -6087802228377890429
+    second: power ball-Sheet_3
+  - first:
+      213: -115507617680240078
+    second: power ball-Sheet_4
+  - first:
+      213: 810000584735893605
+    second: power ball-Sheet_5
+  - first:
+      213: -6382797789086572251
+    second: power ball-Sheet_6
+  - first:
+      213: 3881905679129463445
+    second: power ball-Sheet_7
+  - first:
+      213: -4593763730977175210
+    second: power ball-Sheet_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +67,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +98,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: power ball-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee545759e9f85980800000000000000
+      internalID: -8549809111975043347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power ball-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 4
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296cec194f9ef0ff0800000000000000
+      internalID: -67578232759728494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power ball-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 4
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e51227bf2c35d10800000000000000
+      internalID: 2113247035374263915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power ball-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38154bab028c38ba0800000000000000
+      internalID: -6087802228377890429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power ball-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23251570f62a56ef0800000000000000
+      internalID: -115507617680240078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power ball-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568aa018d33bd3b00800000000000000
+      internalID: 810000584735893605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power ball-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 3
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521a8547a3fbb67a0800000000000000
+      internalID: -6382797789086572251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power ball-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 3
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a4510e5ac4fd530800000000000000
+      internalID: 3881905679129463445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power ball-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6594809b93caf30c0800000000000000
+      internalID: -4593763730977175210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

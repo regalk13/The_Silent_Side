@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class girlmove : MonoBehaviour
 {
+    public GameObject ballpref;
     public float Speed;
     public float JumpForce;
 
@@ -12,6 +13,7 @@ public class girlmove : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
     private AudioSource footstep;
+    private float lastshoot;
 
     void Start()
     {
@@ -47,9 +49,11 @@ public class girlmove : MonoBehaviour
             Animator.SetBool("jumper", true);
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.C) && Time.time > lastshoot + 0.25f)
         {
             Animator.SetBool("hited", true);
+            lastshoot = Time.time;
+            shoot();
         }
         else
         {
@@ -70,6 +74,22 @@ public class girlmove : MonoBehaviour
     public void Hited()
     {
         Animator.SetBool("hited", false);  
+    }
+
+    private void shoot()
+    {
+        Vector3 direction;
+
+        if(transform.localScale.x == 1.0f) 
+        {
+            direction = Vector2.right;
+        }
+        else 
+        {
+            direction = Vector2.left;
+        }
+        GameObject ballet = Instantiate(ballpref, transform.position + direction * 0.1f, Quaternion.identity);
+        ballet.GetComponent<ball>().SetDirection(direction);
     }
 
     private void FixedUpdate()

@@ -11,6 +11,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: hited
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: jumper
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6843510983925182941}
   m_Solo: 0
@@ -33,7 +36,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: hit
-  m_Speed: 0.9
+  m_Speed: 1.4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -1466844856753540968}
@@ -91,6 +94,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: hited
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: running
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6843510983925182941}
@@ -370,6 +376,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: jumper
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: running
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4444022924642929104}
