@@ -31,7 +31,7 @@ Pathfinding whit A.I
 
 Great backgrounds and sounds, immersive experience
 
-<img src="https://media.giphy.com/media/lEArzRNV1dghQgKtkz/giphy.gif">
+<img src="https://github.com/regalk13/The_Siltent_Side/blob/main/screenshots/new-game.gif" width="50%">
 
 ## Final Notes
 
