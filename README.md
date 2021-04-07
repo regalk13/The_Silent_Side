@@ -23,6 +23,16 @@ To modify it:
 
 A girl suffers for sending personal photos, to someone who should not, even so her imagination does not stop and she has multiple adventures within her where she will realize that she can face whatever it is.
 
+## Preview
+
+Pathfinding whit A.I
+
+<img src="https://media.giphy.com/media/Cp73LyuCnt5khNzmRk/giphy.gif">
+
+Great backgrounds and sounds, immersive experience
+
+<img src="https://media.giphy.com/media/lEArzRNV1dghQgKtkz/giphy.gif">
+
 ## Final Notes
 
 - share how you modified the game.
