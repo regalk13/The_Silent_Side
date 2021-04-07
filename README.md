@@ -15,9 +15,9 @@ You can download the game here.
 
 To modify it:
 
-- Unity.
-- Aseprite or other pixel art editor.
-- IDE like visual studio.
+- [Unity](https://unity3d.com/get-unity/download).
+- [Aseprite](https://github.com/aseprite/aseprite) or other pixel art editor.
+- IDE like [visual studio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019).
 
 ## Game History
 
