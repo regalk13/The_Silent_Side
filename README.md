@@ -27,7 +27,7 @@ A girl suffers for sending personal photos, to someone who should not, even so h
 
 Pathfinding whit A.I
 
-<img src="https://media.giphy.com/media/Cp73LyuCnt5khNzmRk/giphy.gif">
+<img src="https://github.com/regalk13/The_Siltent_Side/blob/main/screenshots/Game-with-AI.gif">
 
 Great backgrounds and sounds, immersive experience
 
