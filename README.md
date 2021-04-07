@@ -17,7 +17,7 @@ To modify it:
 
 - [Unity](https://unity3d.com/get-unity/download).
 - [Aseprite](https://github.com/aseprite/aseprite) or other pixel art editor.
-- IDE like [visual studio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019).
+- IDE like [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019).
 
 ## Game History
 
