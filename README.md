@@ -19,10 +19,6 @@ To modify it:
 - [Aseprite](https://github.com/aseprite/aseprite) or other pixel art editor.
 - IDE like [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019).
 
-## Game History
-
-A girl suffers for sending personal photos, to someone who should not, even so her imagination does not stop and she has multiple adventures within her where she will realize that she can face whatever it is.
-
 ## Preview
 
 Pathfinding whit A.I
@@ -35,7 +31,7 @@ Great backgrounds and sounds, immersive experience
 
 ## Final Notes
 
-- share how you modified the game.
-- soon on steam and itchio.
-- thanks to those who supported
+- Share how you modified the game.
+- Soon on steam and itchio.
+- Thanks to those who supported
 
