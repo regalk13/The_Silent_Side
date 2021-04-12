@@ -15,27 +15,23 @@ You can download the game here.
 
 To modify it:
 
-- Unity.
-- Aseprite or other pixel art editor.
-- IDE like visual studio.
-
-## Game History
-
-A girl suffers for sending personal photos, to someone who should not, even so her imagination does not stop and she has multiple adventures within her where she will realize that she can face whatever it is.
+- [Unity](https://unity3d.com/get-unity/download).
+- [Aseprite](https://github.com/aseprite/aseprite) or other pixel art editor.
+- IDE like [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019).
 
 ## Preview
 
 Pathfinding whit A.I
 
-<img src="https://github.com/regalk13/The_Siltent_Side/blob/main/screenshots/Game-with-AI.gif" width="50%">
+<img src="https://github.com/regalk13/The_Siltent_Side/blob/main/screenshots/Game-with-AI.gif" width="60%">
 
 Great backgrounds and sounds, immersive experience
 
-<img src="https://media.giphy.com/media/lEArzRNV1dghQgKtkz/giphy.gif">
+<img src="https://github.com/regalk13/The_Siltent_Side/blob/main/screenshots/new-game.gif" width="60%">
 
 ## Final Notes
 
-- share how you modified the game.
-- soon on steam and itchio.
-- thanks to those who supported
+- Share how you modified the game.
+- Soon on steam and itchio.
+- Thanks to those who supported
 
