@@ -7,6 +7,7 @@ public class girlmove : MonoBehaviour
     public GameObject ballpref;
     public float Speed;
     public float JumpForce;
+    public GameObject text;
 
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
@@ -14,12 +15,14 @@ public class girlmove : MonoBehaviour
     private bool Grounded;
     private AudioSource footstep;
     private float lastshoot;
+    private Dialog dialog;
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
         footstep = GetComponent<AudioSource>();
+        dialog = FindObjectOfType<Dialog>();
     }
 
     void Update()
@@ -99,5 +102,17 @@ public class girlmove : MonoBehaviour
 
     private void Footstep(){
         footstep.Play();
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("ischat"))
+        {
+            dialog.corot();
+        }
+        else
+        {
+            text.SetActive(false);
+        }
     }
 }

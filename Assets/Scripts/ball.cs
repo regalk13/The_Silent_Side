@@ -21,8 +21,7 @@ public class ball : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = Direction * speed;
-        
+        Rigidbody2D.velocity = Direction * speed;    
     }
 
     public void SetDirection(Vector2 direction)
