@@ -11,7 +11,7 @@ I also say that it is my first game, so some scripts could be improved, and many
 
 ## Installation 
 
-You can download the game here.
+You can download the game [here](https://github.com/regalk13/The_Siltent_Side/releases/tag/1.0).
 
 To modify it:
 
