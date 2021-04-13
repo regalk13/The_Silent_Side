@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1233,7 +1233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 2
 --- !u!61 &309371806
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1690,7 +1690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 2
 --- !u!1 &367322191
 GameObject:
   m_ObjectHideFlags: 0
@@ -11850,7 +11850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 2
 --- !u!61 &815713926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21083,7 +21083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 2
 --- !u!1 &1632773854
 GameObject:
   m_ObjectHideFlags: 0
@@ -21328,7 +21328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 2
 --- !u!61 &1741419962
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22100,7 +22100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 2
+  Respawn: 3
 --- !u!61 &2043560805
 BoxCollider2D:
   m_ObjectHideFlags: 0
