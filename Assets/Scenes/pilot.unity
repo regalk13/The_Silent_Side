@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -867,6 +867,7 @@ MonoBehaviour:
   Speed: 1.5
   JumpForce: 200
   text: {fileID: 1892973875}
+  canMove: 0
 --- !u!95 &124267849
 Animator:
   serializedVersion: 3
@@ -1377,7 +1378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 2
 --- !u!61 &210291622
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1563,7 +1564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 2
 --- !u!1 &298980553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2430,7 +2431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 2
 --- !u!1 &760865275
 GameObject:
   m_ObjectHideFlags: 0
@@ -10443,7 +10444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90fe2aa2cf30d24f83cb48e934fa04e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 2
+  Respawn: 3
 --- !u!61 &1040446825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10569,6 +10570,7 @@ MonoBehaviour:
   - 'GAME: PUEDES USAR C PARA LANZAR UNA BOLA DE PODER.'
   typingSpeed: 0.03
   continueButton: {fileID: 35029894}
+  chatzone: {fileID: 1972895337}
 --- !u!4 &1103169879
 Transform:
   m_ObjectHideFlags: 0

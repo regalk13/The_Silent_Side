@@ -11,6 +11,9 @@ public class Dialog : MonoBehaviour
     public float typingSpeed;
 
     public GameObject continueButton;
+    public GameObject chatzone;
+
+    private girlmove girlmove;
 
     public void corot()
     {
@@ -44,6 +47,10 @@ public class Dialog : MonoBehaviour
         {
           textDisplay.text = "";
           continueButton.SetActive(false);
+          chatzone.SetActive(false);
+          girlmove = FindObjectOfType<girlmove>();
+
+          girlmove.canMove = true;
         }
     }
 }

@@ -7,7 +7,7 @@ public class Main_Menu : MonoBehaviour
 {
     public void PlayGame ()
     {
-        SceneManager.LoadScene("pilot");
+        SceneManager.LoadScene(1);
     }
 
     public void QuitGame ()
