@@ -8,6 +8,8 @@ TagManager:
   - turn
   - ball
   - ischat
+  - GM
+  - Load
   layers:
   - Default
   - TransparentFX
