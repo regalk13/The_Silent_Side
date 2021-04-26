@@ -953,7 +953,7 @@ Animator:
   m_GameObject: {fileID: 592297775}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ac469be1330fe5b40ae2d0a02f639a11, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1a84f8d55657d514ca5ae3a54f18688a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1404,28 +1404,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 194512104}
   sentences:
-  - 'Theodore: Hola Lisa, por fin sabras todo.'
+  - 'Theodore: Hola Lisa, llegaste...'
   - 'Lisa: Pense que no te veria mas.'
   - 'Theodore: Como me perderia esto.'
-  - 'Theodore: Yo cree todo esto, soy tu consiencia. La voz que escuchas aveces en
-    tu mente.'
-  - 'Lisa: Pero esto era necesario?, y para que?'
-  - 'Theodore: Veras cuando tuviste ese suceso, necesitastes alguien con quien hablar,
-    me creaste.'
-  - 'Theodore: Y empece a pensar por mi mismo, y me di cuenta que necesitabas un
-    gran desafio para que supieras que puedes hacer lo que quieras.'
+  - 'Theodore: Es hora de contarte las cosas, yo cree esto...'
+  - 'Lisa: Tu creaste esto pero, para que?'
+  - 'Theodore: Veras cuando entraste en depresion, necesitabas hablar con algien'
+  - 'Theodore: Y necesitabas esto para poder saber que puedes hacer lo que quieras.'
   - "Lisa: Tienes razon, pude pasar todo esto, como no podre solucionar mis peque\xF1os
     problemas."
-  - 'Theodore: Parece que mi trabajo aqui, a terminado.'
-  - 'Lisa: Pero... solo asi?'
-  - 'Theodore: Confio en ti, vuelve al mundo real y termina con esto.'
-  - 'Lisa: Cometi muchos errores, crees que sere capaz?'
-  - 'Theodore: Es hora que lo demuestres, se que lo haras.'
-  - 'Lisa: Gracias, y tu estaras ahi?'
-  - 'Theodore: No, mi trabajo a terminado y no me volveras a ver, no soy necesario.'
-  - 'Lisa: Pero claro que si, necesito tu ayuda'
-  - 'Theodore: No es asi y dentro de ti lo sabes, adios Lisa....'
-  - 'Lisa: Gracias...'
+  - 'Theodore: Me siento feliz que lo solucionaras.'
+  - 'Lisa: Bueno, ahora?...'
+  - 'Theodore: Usare mis ultimas energias para sacarte de aqui, ve y enfrenta todo.'
+  - 'Lisa: Podre hacerlo?'
+  - 'Theodore: Creo en ti, siempre lo hice.'
+  - 'Lisa: Gracias.'
+  - 'Theodore: Hasta siempre, Lisa.'
+  - 'Lisa: Enserio nunca volveras?'
+  - 'Theodore: Eso lo decidiras tu.'
+  - 'Lisa: Vale...'
   typingSpeed: 0.03
   continueButton: {fileID: 496399666}
   chatzone: {fileID: 1501963297}

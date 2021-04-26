@@ -993,15 +993,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 291579362}
   sentences:
-  - 'Theodore: Lisa tu viaje, terminara en breves lo se..'
-  - 'Lisa: Eso espero ya quiero descansar '
-  - 'Theodore: Buena idea.'
-  - 'Lisa: Que crees que hay al final?'
-  - 'Theodore: Que final?'
-  - 'Lisa: El final de todo esto.'
-  - 'Theodore: Si no lo sabes tu  quien podra..'
-  - 'Theodore: ...'
-  - 'Lisa: Al menos falta poco.'
+  - 'Theodore: Nos volvemos a ver.'
+  - 'Lisa: Si, por cierto linda casa.'
+  - 'Theodore: Gracias aunque no es mia.'
+  - 'Lisa: Vale, crees que falta poco?'
+  - "Theodore: No estoy seguro, hace a\xF1os que no completo este camino."
+  - 'Lisa: Bueno, espero verte pronto'
+  - 'Theodore: Esperemos...'
   typingSpeed: 0.03
   continueButton: {fileID: 940133149}
   chatzone: {fileID: 1515199070}

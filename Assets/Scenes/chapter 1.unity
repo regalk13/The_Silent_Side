@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1379,12 +1379,13 @@ MonoBehaviour:
   textDisplay: {fileID: 1632773856}
   sentences:
   - 'Theodore: Me alegra verte Lisa, espero no hayas tenido problemas en el camino'
-  - 'Lisa: Algunos problemas, tal vez...'
-  - 'Theodore: Espero nada grave.'
-  - 'Lisa: Mi mente me muestra cada vez mas...'
+  - 'Lisa: No muchos...'
+  - 'Theodore: Yo si sufri un poco, para llegar aqui, me estoy volviendo un poco
+    viejo.'
+  - 'Lisa: Crees que todo esto tiene sentido?'
   - 'Theodore: Entonces estas bien?'
   - 'Lisa: No escuchas lo que digo verdad?...'
-  - 'Theodore: Las respuestas normalmente estan en nuestra cara'
+  - 'Theodore: Pronto veras respuestas.'
   - 'Lisa: ...'
   - 'Theodore: ...'
   typingSpeed: 0.03

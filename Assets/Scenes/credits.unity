@@ -197,18 +197,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lisa: Theodore?...\n\nTheodore: Gracias, por todos esos momentos...\n\nLisa:
-    Theodore, gracias a ti, que haria sin ti?\n\nTheodore: ....\n\nLisa: Theodore?,
-    hola? ...\n\nLisa: Descansa...\n\n\n\nQuerido Jugador:\n\nGracias por jugar,
-    espero que la experiencia haya sido buena, tengo varias cosas por decir. Perdon
-    por temas de tildes en la version de espa\xF1ol pues el motor y las fuentes no
-    me permiten usarlas estan hechas para el idioma ingles donde estas no existen.
-    Bueno sigamos, lo que queremos mostrar es que atendamos a las indicaciones de
-    nuestros maestros, expertos y padres, con el uso de las redes sociales y el internet.
-    Lisa cometio errores y estuvo en gran depresion, pero tambien se dio cuenta que
-    podia solucionar sus problemas.\n\nEvitemos estar en esa situacion y tengamos
-    un buen uso de las nuevas tecnologias, gran saludo y nos veremos pronto\n\n\t\t\tJuan
-    Salazar.\n\n\n\nDirector                    Juan Salazar\n\nCharacter Designer         
+  m_text: "Lisa: Theodore?...\n\nTheodore: Ten buen viaje....\n\nLisa: Descansa...\n\nTheodore:
+    ...\n\nQuerido Jugador:\r\n\r\nGracias por jugar, espero que la experiencia haya
+    sido buena, tengo varias cosas por decir. Perdon por temas de tildes en la version
+    de espa\xF1ol pues el motor y las fuentes no me permiten usarlas estan hechas
+    para el idioma ingles donde estas no existen. En fin sigamos, lo que queremos
+    mostrar es que atendamos a las indicaciones de nuestros maestros, expertos y
+    padres, con el uso de las redes sociales y el internet. Lisa cometio errores
+    y estuvo en gran depresion, pero tambien se dio cuenta que podia solucionar sus
+    problemas.\r\n\r\nEvitemos estar en esa situacion y tengamos un buen uso de las
+    nuevas tecnologias, gran saludo y nos veremos pronto.\r\n\n\t\t\t       Juan
+    Salazar.\n\n\nDirector                    Juan Salazar\n\nCharacter Designer         
     Juan Salazar\n\nProgrammer                  Juan Salazar\n\nBackground Designer        
     Juan Salazar\n\nMusic                       Juan Salazar\n\nSFX                        
     Juan Salazar\n\nMenu Designer               Juan Salazar\n\nAnimation                  
@@ -248,7 +247,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -291,6 +290,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88477160}
   m_CullTransparentMesh: 0
+--- !u!1 &902076423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902076425}
+  - component: {fileID: 902076424}
+  m_Layer: 0
+  m_Name: sceneload
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &902076424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902076423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5b3f797732aaa4fae72181a7313a2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Respawn: 0
+--- !u!4 &902076425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902076423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1201.2655, y: -1596.4421, z: -2175.1582}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1164175948
 GameObject:
   m_ObjectHideFlags: 0
