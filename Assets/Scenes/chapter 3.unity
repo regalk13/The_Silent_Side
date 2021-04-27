@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 22561137}
   - component: {fileID: 22561140}
   - component: {fileID: 22561141}
+  - component: {fileID: 22561142}
   m_Layer: 0
   m_Name: antibugs
   m_TagString: Untagged
@@ -154,7 +155,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.3762862, y: 0.32874274}
+  m_Offset: {x: 0.3762862, y: 0.33232772}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -165,7 +166,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3760916, y: 0.2607932}
+  m_Size: {x: 0.3760916, y: 0.26796317}
   m_EdgeRadius: 0
 --- !u!61 &22561138
 BoxCollider2D:
@@ -180,7 +181,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.4360813, y: 0.33432007}
+  m_Offset: {x: -0.4360813, y: 0.3316313}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -191,7 +192,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.40985417, y: 0.25822783}
+  m_Size: {x: 0.40985417, y: 0.2528503}
   m_EdgeRadius: 0
 --- !u!4 &22561139
 Transform:
@@ -258,6 +259,32 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.43747902, y: 0.24979973}
+  m_EdgeRadius: 0
+--- !u!61 &22561142
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22561136}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.1769916, y: 0.32932532}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.39870954, y: 0.26424575}
   m_EdgeRadius: 0
 --- !u!1 &85298281
 GameObject:
@@ -6292,24 +6319,6 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 92, y: 52, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 7
-      m_TileSpriteIndex: 7
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 93, y: 52, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 7
-      m_TileSpriteIndex: 7
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
   - first: {x: 94, y: 52, z: 0}
     second:
       serializedVersion: 2
@@ -11024,7 +11033,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 53d5bc9c11eb72f45a7185c4c292868f, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: a7a48a0e2606cb6448a0d5a5bf9d4067, type: 2}
-  - m_RefCount: 8
+  - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: 97cf1a642638be0438acbb90e3aa4562, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 56e06981c1d7709418342dac2d9db222, type: 2}
@@ -11053,7 +11062,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 7657681755328959116, guid: 19320f8c588f7a943a79f0a75cab3a47,
       type: 3}
-  - m_RefCount: 8
+  - m_RefCount: 6
     m_Data: {fileID: 21300000, guid: e842c3fc0446fe04f97d4b4d70378e59, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: ec22451e37bd7a34ab642d38909b130a, type: 3}
@@ -11064,7 +11073,7 @@ Tilemap:
     m_Data: {fileID: 3048538982666575687, guid: d0bf1dd6564b3ae4981b6dac14b8d2bf,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 832
+  - m_RefCount: 830
     m_Data:
       e00: 1
       e01: 0
@@ -11083,7 +11092,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 832
+  - m_RefCount: 830
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
