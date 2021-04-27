@@ -13,7 +13,7 @@ public class loades : MonoBehaviour
     }
 
     IEnumerator showTextFuntion(){
-        yield return new WaitForSeconds (9f);
+        yield return new WaitForSeconds (6f);
         SceneManager.LoadScene(Respawn);
         
     }

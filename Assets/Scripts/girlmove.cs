@@ -51,7 +51,7 @@ public class girlmove : MonoBehaviour
 
         else Grounded = false;
 
-        if (canMove && Input.GetKeyDown(KeyCode.W) && Grounded)
+        if (canMove && Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
             Jump();
             Animator.SetBool("jumper", true);
