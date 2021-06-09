@@ -12,9 +12,7 @@ public class Parallax : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        starpos = transform.position.x;
-        lenght = GetComponent<SpriteRenderer>().bounds.size.x;
-        
+        starpos = transform.position.x;    
     }
 
     // Update is called once per frame
@@ -24,9 +22,5 @@ public class Parallax : MonoBehaviour
         float dist = (cam.transform.position.x * parallaxEffect);
 
         transform.position = new Vector3(starpos + dist, transform.position.y, transform.position.z);
-    
-        if (temp > starpos + lenght) starpos += lenght;
-        else if (temp < starpos - lenght) starpos -= lenght;
-
     }
 }

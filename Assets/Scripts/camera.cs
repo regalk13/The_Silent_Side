@@ -4,13 +4,29 @@ using UnityEngine;
 
 public class camera : MonoBehaviour
 {
-    public GameObject Girl;
+    public Transform target;
+    public Vector3 offset;
+    [Range(1,10)]
+    public float smoothFactor;
+    public Vector3 minValues, maxValues;
+
+
       // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        Vector3 position = transform.position;
-        position.x = Girl.transform.position.x;
-        position.y = Girl.transform.position.y;
-        transform.position = position;
+        Follow();
+    }
+
+    void Follow()
+    {
+      Vector3 targetPosition = target.position + offset;
+
+      Vector3 boundPosition = new Vector3(
+        Mathf.Clamp(targetPosition.x,minValues.x,maxValues.x),
+        Mathf.Clamp(targetPosition.y,minValues.y,maxValues.y),
+        Mathf.Clamp(targetPosition.z,minValues.z,maxValues.z));
+
+      Vector3 smoothPosition = Vector3.Lerp(transform.position, boundPosition,smoothFactor*Time.fixedDeltaTime);
+      transform.position = smoothPosition;
     }
 }
