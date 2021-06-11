@@ -7,8 +7,8 @@ public class girlmove : MonoBehaviour
     public GameObject ballpref;
     public float Speed;
     public float JumpForce;
-    public GameObject text;
     public bool canMove;
+    public bool inchat;
 
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
@@ -16,15 +16,17 @@ public class girlmove : MonoBehaviour
     private bool Grounded;
     private AudioSource footstep;
     private float lastshoot;
-    private Dialog dialog;
+    public inkTestingScript inky;
+    public GameObject chatzone;
+    public GameObject canvas;
+    public GameObject P;
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
         footstep = GetComponent<AudioSource>();
-        dialog = FindObjectOfType<Dialog>();
-
+        
         canMove = true;
     }
 
@@ -66,6 +68,22 @@ public class girlmove : MonoBehaviour
         else
         {
             Hited();
+        }
+
+       if (Input.GetKeyDown(KeyCode.P) && inchat)
+        {
+            inky.init();
+            canMove = false;
+            P.SetActive(false);
+            Animator.SetBool("running", false);
+        } 
+
+        if (Input.GetKeyDown(KeyCode.X) && inchat)
+        {
+            canMove = true;
+            chatzone.SetActive(false);
+            canvas.SetActive(false);
+            P.SetActive(false);
         }
     }
 
@@ -118,12 +136,14 @@ public class girlmove : MonoBehaviour
     {
         if(other.CompareTag("ischat"))
         {
-            dialog.corot();
-            canMove = false;
-            Animator.SetBool("running", false);  
+            Debug.Log("Chatting");
+            inchat = true;
+            P.SetActive(true);
         }
         else{
             canMove = true;
+            inchat = false;
+            P.SetActive(false);
         }
     }
 }
