@@ -12,6 +12,7 @@ public class Playerpos : MonoBehaviour
     public Animator n_Animator;
     public GameObject load;
     public GameObject load2;
+    public GameObject pepe;
 
     void OnTriggerEnter2D(Collider2D other){
         if(other.CompareTag("Enemy")){
@@ -29,6 +30,9 @@ public class Playerpos : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
+        pepe.SetActive(true);
+
+        yield return new WaitForSeconds(4f);
 
         Debug.Log("Changing to Scene2");
         SceneManager.LoadScene(Respawn);
