@@ -88,8 +88,8 @@ public class ghost_ : MonoBehaviour
     {
         deadscene.SetActive(true);
         yield return new WaitForSeconds(1f);
-        Destroy(gameObject);
+        SceneManager.LoadScene(6);  
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene(6);
+        Destroy(gameObject);
     }
 }
