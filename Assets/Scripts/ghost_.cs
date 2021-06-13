@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class ghost_ : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class ghost_ : MonoBehaviour
     private Animator Animator;
     public float speed;
     public bool Moveright;
+    public GameObject deadscene;
 
     private float LastHit;
     private AudioSource[] mysounds;
@@ -51,7 +54,7 @@ public class ghost_ : MonoBehaviour
 
         if(hited >= 10)
         {
-            dead();
+            StartCoroutine(dead());
         }
 
     }
@@ -81,9 +84,12 @@ public class ghost_ : MonoBehaviour
             }
         }
     
-    private void dead()
+    IEnumerator dead()
     {
+        deadscene.SetActive(true);
+        yield return new WaitForSeconds(1f);
         Destroy(gameObject);
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(6);
     }
-
 }
