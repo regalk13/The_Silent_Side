@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -197,13 +197,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Director                    Juan Salazar\n\nCharacter Designer         
-    Juan Salazar, Juan Borja\n\nProgrammer                  Juan Salazar\n\nBackground
-    Designer         Juan Salazar\n\nMusic                    Juan Salazar, 8-bit
-    Universe\n\nSFX                         Juan Salazar\n\nMenu Designer              
-    Juan Borja\n\nAnimation                   Juan Salazar, Juan Borja\n\nGame Creation              
-    Juan Salazar, Juan Borja\n\n\nSpecial Thanks:\n\nJuan Salazar \n\nJuan Borja\n\nHideo
-    Kojima\n\nedermunizz\n\n8-bit Universe(Music Covers)\n\n\n\t\t@RS_Games\n\t\t\n\n\n\n\n"
+  m_text: "\tTHE END?\n\n\n\n\n\n\nDirector                    Juan Salazar\n\nCharacter
+    Designer          Juan Salazar, Juan Borja\n\nProgrammer                  Juan
+    Salazar\n\nBackground Designer         Juan Salazar\n\nMusic                   
+    Juan Salazar, 8-bit Universe\n\nSFX                         Juan Salazar\n\nMenu
+    Designer               Juan Borja\n\nAnimation                   Juan Salazar,
+    Juan Borja\n\nGame Creation               Juan Salazar, Juan Borja\n\n\nSpecial
+    Thanks:\n\nJuan Salazar \n\nJuan Borja\n\nHideo Kojima\n\nedermunizz\n\n8-bit
+    Universe(Music Covers)\n\n\n\t\t@RS_Games\n\t\t\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f46d4a3c620632a41a94b759f2b5cbd9, type: 2}
   m_sharedMaterial: {fileID: 7268774575784392069, guid: f46d4a3c620632a41a94b759f2b5cbd9,

@@ -15,10 +15,10 @@ public class ghost_ : MonoBehaviour
     private float LastHit;
     private AudioSource[] mysounds;
 
-    private AudioSource footstep;
-    private AudioSource bark;
-    private AudioSource cry;
+    private AudioSource hit;
+    private AudioSource deads;
     private int hited;
+    public GameObject sounder;
 
 
     void Start()
@@ -26,9 +26,8 @@ public class ghost_ : MonoBehaviour
         Animator = GetComponent<Animator>();
         mysounds = GetComponents<AudioSource>();
 
-        footstep = mysounds[0];
-        bark = mysounds[1];
-        cry = mysounds[2];
+        hit = mysounds[0];
+        deads = mysounds[1];
     }
 
     private void Update()
@@ -79,6 +78,7 @@ public class ghost_ : MonoBehaviour
 
             if(other.gameObject.CompareTag("ball"))
             {
+                hit.Play();
                 hited++;
                 Debug.Log(hited);
             }
@@ -86,10 +86,12 @@ public class ghost_ : MonoBehaviour
     
     IEnumerator dead()
     {
-        deadscene.SetActive(true);
+        sounder.SetActive(false);
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(6);  
-        yield return new WaitForSeconds(0.5f);
+        deadscene.SetActive(true); 
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(6);
+        yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }
 }
