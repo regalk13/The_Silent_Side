@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class ghost_ : MonoBehaviour
@@ -20,6 +21,16 @@ public class ghost_ : MonoBehaviour
     private int hited;
     public GameObject sounder;
 
+    public Image image;
+    public GameObject Images;
+    public Sprite heart1;
+    public Sprite heart2;
+    public Sprite heart3;
+    public Sprite heart4;
+    public Sprite heart5;
+    public Sprite heart6;
+    public Sprite heart7;
+    public Sprite heart0;
 
     void Start()
     {
@@ -51,8 +62,38 @@ public class ghost_ : MonoBehaviour
            LastHit = Time.time;
        }
 
-        if(hited >= 10)
+        if(hited == 1)
         {
+            image.sprite = heart1;
+        }
+        if(hited == 2)
+        {
+            image.sprite = heart2;
+        }
+        if(hited == 3)
+        {
+            image.sprite = heart3;
+        }
+        if(hited == 4)
+        {
+            image.sprite = heart4;
+        }
+        if(hited == 5)
+        {
+            image.sprite = heart5;
+        }
+        if(hited == 6)
+        {
+            image.sprite = heart6;
+        }
+        if(hited == 7)
+        {
+            image.sprite = heart7;
+        }
+
+        if(hited == 8)
+        {
+            image.sprite = heart0;
             StartCoroutine(dead());
         }
 
@@ -87,8 +128,8 @@ public class ghost_ : MonoBehaviour
     IEnumerator dead()
     {
         sounder.SetActive(false);
-        yield return new WaitForSeconds(1f);
         deadscene.SetActive(true); 
+        Images.SetActive(false);   
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(6);
         yield return new WaitForSeconds(1f);
