@@ -2179,7 +2179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &567559758
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2270,6 +2270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 614618371}
   - component: {fileID: 614618372}
+  - component: {fileID: 614618373}
   m_Layer: 0
   m_Name: ZoneChat
   m_TagString: ischat
@@ -2304,7 +2305,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2186184, y: -0.18891639}
+  m_Offset: {x: -0.05918312, y: -0.18891639}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2315,8 +2316,26 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1111622, y: 0.6221672}
+  m_Size: {x: 0.79229164, y: 0.6221672}
   m_EdgeRadius: 0
+--- !u!114 &614618373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614618370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c59c93b8df9e984d855984e79d3542c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInRange: 0
+  otherTag: Player
+  myNotification: {fileID: 11400000, guid: 4c44f2e341851b84d9874e72226c8a0e, type: 2}
+  dialogValue: {fileID: 11400000, guid: 07acffb178e8cb44ebeb2ca654015548, type: 2}
+  myDialog: {fileID: 4900000, guid: 6cf48bb6d89824cc69e35b43f9a1aca6, type: 3}
+  DialogNotification: {fileID: 11400000, guid: b1c77b7562a97a74e8b25c28f3ccc351, type: 2}
 --- !u!1 &681231771
 GameObject:
   m_ObjectHideFlags: 0
@@ -2867,7 +2886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &913068450
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13950,6 +13969,8 @@ GameObject:
   - component: {fileID: 1686516899}
   - component: {fileID: 1686516898}
   - component: {fileID: 1686516897}
+  - component: {fileID: 1686516902}
+  - component: {fileID: 1686516901}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -14038,6 +14059,51 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1686516901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686516896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 770149957451e1a4c921230f973a549c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1686516902}
+        m_MethodName: EnableCanvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  myNotification: {fileID: 11400000, guid: b1c77b7562a97a74e8b25c28f3ccc351, type: 2}
+--- !u!114 &1686516902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686516896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043ace8c7d180084493ed5a01e4247f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  branchingCanvas: {fileID: 567559757}
+  dialogPrefab: {fileID: 1350027943988211882, guid: 68c984b6696065944ae0e35eb3657e92,
+    type: 3}
+  choicePrefab: {fileID: 1551208449426517388, guid: 612450280dc7169419ea002106498f69,
+    type: 3}
+  dialogValue: {fileID: 11400000, guid: 07acffb178e8cb44ebeb2ca654015548, type: 2}
 --- !u!1 &1714428260
 GameObject:
   m_ObjectHideFlags: 0
