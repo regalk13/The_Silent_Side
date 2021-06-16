@@ -15,6 +15,8 @@ public class girlmove : MonoBehaviour
     private bool Grounded;
     private AudioSource footstep;
     private float lastshoot;
+    public GameObject dialogCanvas;
+    public GameObject p;
 
     void Start()
     {
@@ -63,6 +65,18 @@ public class girlmove : MonoBehaviour
         else
         {
             Hited();
+        }
+
+        if(dialogCanvas.activeSelf)
+            {
+                Animator.SetBool("running", false);  
+                canMove = false;
+                Debug.Log("Chatting");
+                p.SetActive(false);
+            }
+        else
+        {
+            canMove = true;
         }
     }
 
@@ -115,7 +129,11 @@ public class girlmove : MonoBehaviour
     {
         if(other.CompareTag("ischat"))
         {
-            Debug.Log("Chatting");
+            p.SetActive(true);
+        }
+        else
+        {
+            p.SetActive(false);
         }
     }
 }

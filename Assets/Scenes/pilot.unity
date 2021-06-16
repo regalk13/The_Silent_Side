@@ -680,6 +680,8 @@ MonoBehaviour:
   Speed: 1.7
   JumpForce: 200
   canMove: 0
+  dialogCanvas: {fileID: 567559757}
+  p: {fileID: 1134720062}
 --- !u!95 &124267849
 Animator:
   serializedVersion: 3
@@ -2961,52 +2963,52 @@ PrefabInstance:
     - target: {fileID: 4612222365613734679, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222365613734679, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222365912584700, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222365912584700, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222365960698370, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222365960698370, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222365960698370, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222366130819492, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222366130819492, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222366130819492, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612222367260032433, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
@@ -3121,7 +3123,7 @@ PrefabInstance:
     - target: {fileID: 4612222367260032437, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4612222367260032439, guid: f08548d4a5dc64349bcfcd9ab45d5bb2,
         type: 3}
@@ -14104,6 +14106,9 @@ MonoBehaviour:
   choicePrefab: {fileID: 1551208449426517388, guid: 612450280dc7169419ea002106498f69,
     type: 3}
   dialogValue: {fileID: 11400000, guid: 07acffb178e8cb44ebeb2ca654015548, type: 2}
+  dialogHolder: {fileID: 681231771}
+  choiceHolder: {fileID: 1598969274}
+  dialogScroll: {fileID: 2011953175}
 --- !u!1 &1714428260
 GameObject:
   m_ObjectHideFlags: 0
