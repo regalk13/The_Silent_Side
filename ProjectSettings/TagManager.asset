@@ -10,6 +10,8 @@ TagManager:
   - ischat
   - GM
   - Load
+  - ghost
+  - antichat
   layers:
   - Default
   - TransparentFX

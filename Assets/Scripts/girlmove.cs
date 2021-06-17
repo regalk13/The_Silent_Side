@@ -17,12 +17,15 @@ public class girlmove : MonoBehaviour
     private float lastshoot;
     public GameObject dialogCanvas;
     public GameObject p;
+    public GameObject cnv;
+    Animator anim;
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
         footstep = GetComponent<AudioSource>();
+        anim = cnv.GetComponent<Animator>();
         
         canMove = true;
     }
@@ -130,10 +133,17 @@ public class girlmove : MonoBehaviour
         if(other.CompareTag("ischat"))
         {
             p.SetActive(true);
+            cnv.SetActive(false);
         }
-        else
+        if(other.CompareTag("ghost"))
         {
+            cnv.SetActive(true);
             p.SetActive(false);
+        }
+        if(other.CompareTag("antichat"))
+        {
+            anim = cnv.GetComponent<Animator>();
+            anim.SetBool("delete",true);
         }
     }
 }

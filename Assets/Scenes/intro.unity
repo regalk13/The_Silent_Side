@@ -412,8 +412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.328, y: -753}
-  m_SizeDelta: {x: 1867.3445, y: 344.4386}
+  m_AnchoredPosition: {x: 26.328, y: -804.1}
+  m_SizeDelta: {x: 1867.3445, y: 446.57318}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1037729057
 Animator:
@@ -453,14 +453,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lisa una chica, que entra en una gran depresi\xF3n, siente mucha culpa.
-    Por ella todo el mundo ahora conoce su cuerpo...\n\nNo tiene valor de darle la
-    cara a nadie menos a su familia, y solo quiere dormir. Pero... entra en the silent
-    side un mundo de fantasia donde puede sentirse libre,pero tendra que salvarlo.
-    Sera esta la realidad o solo una ilusion. "
+  m_text: "Lisa es una chica, que solo confio y ahora siente mucha culpa. El mundo
+    le recrimina...\r\n\r\nNo tiene valor de darle la cara a nadie menos a su familia,
+    y solo quiere estar en su habitaci\xF3n, decide dormir pero despierta en un lugar
+    m\xE1gico y maravilloso The silent side... \xBFQu\xE9 tendr\xE1 que hacer aqu\xED
+    y quien la trajo?, \xBFEs la realidad o solo una ilusi\xF3n?\r\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f46d4a3c620632a41a94b759f2b5cbd9, type: 2}
-  m_sharedMaterial: {fileID: 7268774575784392069, guid: f46d4a3c620632a41a94b759f2b5cbd9,
+  m_fontAsset: {fileID: 11400000, guid: a4626480d7fd0c248a7fc58819f6c001, type: 2}
+  m_sharedMaterial: {fileID: 6958434560250995864, guid: a4626480d7fd0c248a7fc58819f6c001,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -485,10 +485,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.58
-  m_fontSizeBase: 38.58
+  m_fontSize: 42.4
+  m_fontSizeBase: 40.87
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
