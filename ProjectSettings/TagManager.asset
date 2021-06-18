@@ -12,6 +12,7 @@ TagManager:
   - Load
   - ghost
   - antichat
+  - p
   layers:
   - Default
   - TransparentFX

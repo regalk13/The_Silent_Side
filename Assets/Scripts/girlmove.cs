@@ -138,12 +138,15 @@ public class girlmove : MonoBehaviour
         if(other.CompareTag("ghost"))
         {
             cnv.SetActive(true);
-            p.SetActive(false);
         }
         if(other.CompareTag("antichat"))
         {
             anim = cnv.GetComponent<Animator>();
             anim.SetBool("delete",true);
+        }
+        if(other.CompareTag("p"))
+        {
+            p.SetActive(false);
         }
     }
 }
