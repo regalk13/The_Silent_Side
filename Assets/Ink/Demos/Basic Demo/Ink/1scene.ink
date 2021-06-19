@@ -11,11 +11,11 @@ Bienvenida a The  Silent Side Lisa
 == Divert1 ==
 Bueno, todas tus preguntas serán contestadas pronto... pero tendrás que escucharme.
 
-*[Entiendo] Cuentame todo.
+*[Entiendo] Te escucho...
     Estás en una dimensión alternativa para hacer algo muy importante, eres la elegida y debes derrotar la resurrección de un ser ancestral y malvado.
     **[¿Dimension?]Como una dimensión alternativa.
             Bueno es un lugar que vive alternativamente al tuyo, y fuiste elegida por millones de años para evitar la resurrección de ese ser.
-                ***[¿Qué es ese ser?] De quien hablas.
+                ***[¿Quien es ese ser?] De quien hablas.
                 Es un ser increíblemente malvado como antiguo y está escrito su resurrección, y también que alguien evitara eso, y todo apunta a que eres tú.
                     ****[¿Que debo hacer?]¿Qué tengo que hacer?
                         Bueno tendrás que tomar valor, y sacar todo tu poder, aunque te ayudare hacerlo más fácil.
@@ -47,7 +47,7 @@ Bueno, todas tus preguntas serán contestadas pronto... pero tendrás que escuch
                                                     **********[Adelante]Bueno dame ese poder del que hablas
                                                     Ya lo hice, aunque no lo sientas dentro de ti el poder ha despertado.
                                                     ->Divert2
-    **[¿Qué es ese ser?] De quien hablas.
+    **[¿Quien es ese ser?] De quien hablas.
             Es un ser increíblemente malvado como antiguo y está escrito su resurrección, pero también que tu la evitaras.
                 ***[¿Dimensión?] ¿Como que una dimensión?
                 Bueno es un lugar que vive alternativamente al tuyo, y fuiste elegida por millones de años para evitar la resurrección de ese ser.
