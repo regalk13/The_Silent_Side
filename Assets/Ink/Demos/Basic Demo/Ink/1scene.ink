@@ -12,8 +12,8 @@ Bienvenida a The  Silent Side Lisa
 Bueno, todas tus preguntas serán contestadas pronto... pero tendrás que escucharme.
 
 *[Entiendo] Te escucho...
-    Estás en una dimensión alternativa para hacer algo muy importante, eres la elegida y debes derrotar la resurrección de un ser ancestral y malvado.
-    **[¿Dimension?]Como una dimensión alternativa.
+    Estás en un universo paralelo para hacer algo muy importante, eres la elegida y debes derrotar la resurrección de un ser ancestral y malvado.
+    **[¿Universo?]¿Como un universo paralelo?.
             Bueno es un lugar que vive alternativamente al tuyo, y fuiste elegida por millones de años para evitar la resurrección de ese ser.
                 ***[¿Quien es ese ser?] De quien hablas.
                 Es un ser increíblemente malvado como antiguo y está escrito su resurrección, y también que alguien evitara eso, y todo apunta a que eres tú.
@@ -49,7 +49,7 @@ Bueno, todas tus preguntas serán contestadas pronto... pero tendrás que escuch
                                                     ->Divert2
     **[¿Quien es ese ser?] De quien hablas.
             Es un ser increíblemente malvado como antiguo y está escrito su resurrección, pero también que tu la evitaras.
-                ***[¿Dimensión?] ¿Como que una dimensión?
+                ***[¿Universo?] ¿Como que una universo paralelo?
                 Bueno es un lugar que vive alternativamente al tuyo, y fuiste elegida por millones de años para evitar la resurrección de ese ser.
                     ****[¿Que debo hacer?]¿Qué tengo que hacer?
                         Bueno tendrás que tomar valor, y sacar todo tu poder, aunque te ayudare hacerlo más fácil.
