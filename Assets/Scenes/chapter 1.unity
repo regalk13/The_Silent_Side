@@ -12295,6 +12295,8 @@ GameObject:
   - component: {fileID: 748875640}
   - component: {fileID: 748875643}
   - component: {fileID: 748875644}
+  - component: {fileID: 748875645}
+  - component: {fileID: 748875646}
   m_Layer: 0
   m_Name: antibugsGameObject
   m_TagString: Untagged
@@ -12419,6 +12421,58 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1.2537041, y: 0.43813193}
+  m_EdgeRadius: 0
+--- !u!61 &748875645
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748875639}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 39.26245, y: 0.7559557}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.115097, y: 0.28280187}
+  m_EdgeRadius: 0
+--- !u!61 &748875646
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748875639}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.409945, y: 0.38668013}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.882164, y: 0.22663975}
   m_EdgeRadius: 0
 --- !u!1 &775596233
 GameObject:
@@ -23241,8 +23295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.7, y: -4}
-  m_SizeDelta: {x: 1272.1318, y: 107.99963}
+  m_AnchoredPosition: {x: 9.223706, y: -4}
+  m_SizeDelta: {x: 1297.9792, y: 107.99963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1672962668
 MonoBehaviour:
@@ -23264,8 +23318,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Este lugar me hacer recordar cuando acampaba con mi padre todo era tan
-    diferente y alegre,  pero todo se torno a mal y nunca mas nuestra relacion fue
-    la misma... \xBFEn qu\xE9 momento paso?"
+    diferente y alegre, pasabamos la noche en el bosque, disfrutaba mucho.  Pero
+    todo se torno a mal y nunca mas nuestra relaci\xF3n fue la misma... \xBFEn qu\xE9
+    momento paso?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a4626480d7fd0c248a7fc58819f6c001, type: 2}
   m_sharedMaterial: {fileID: 6958434560250995864, guid: a4626480d7fd0c248a7fc58819f6c001,
