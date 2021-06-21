@@ -89,7 +89,7 @@ Bueno, todas tus preguntas serán contestadas pronto... pero tendrás que escuch
 
 == Divert2 ==
 Espero tengas un buen viaje, solo avanza y nos veremos pronto… Te contaré muchas más cosas. 
-*[Gracias]Gracias, espero me expliques pronto mejor las cosas.
+*[Salir]Gracias... Espero poder hacerlo bien.
     ->EndPart
 
 
