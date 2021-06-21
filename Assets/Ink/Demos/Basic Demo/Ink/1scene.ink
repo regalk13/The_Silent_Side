@@ -14,7 +14,7 @@ Bueno, todas tus preguntas serán contestadas pronto... pero tendrás que escuch
 *[Entiendo] Te escucho...
     Estás en un universo paralelo para hacer algo muy importante, eres la elegida y debes derrotar la resurrección de un ser ancestral y malvado.
     **[¿Universo?]¿Como un universo paralelo?.
-            Bueno es un lugar que vive alternativamente al tuyo, y fuiste elegida por millones de años para evitar la resurrección de ese ser.
+            Bueno es un lugar que vive alternativamente al tuyo, y fuiste elegida desde hace millones de años para evitar la resurrección de ese ser.
                 ***[¿Quien es ese ser?] De quien hablas.
                 Es un ser increíblemente malvado como antiguo y está escrito su resurrección, y también que alguien evitara eso, y todo apunta a que eres tú.
                     ****[¿Que debo hacer?]¿Qué tengo que hacer?
