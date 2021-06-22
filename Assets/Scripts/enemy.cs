@@ -53,7 +53,6 @@ public class enemy : MonoBehaviour
     }
     private void Hit()
     {
-        Debug.Log("Hit");
         Animator.SetBool("hiting", true);
         Animator.SetBool("running", false);
     }

@@ -1,6 +1,6 @@
 Bienvenida a The  Silent Side Lisa
 
-* [¿Quien eres?] Quiero saber quien eres.
+* [¿Quien eres?] ¿Quien eres?, no te conozco.
 
 *[¿Que es The Silent Side?] Que es este lugar.
 
