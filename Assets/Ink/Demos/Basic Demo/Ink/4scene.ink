@@ -22,7 +22,21 @@ Haz llegado casi al final del camino, me siento muy orgulloso de ti.
                     El tiempo y las cosas que has pasado demuestran que lo haras muy bien.
                     En fin es hora que avances tienes alguna pregunta?
                         ******[si]si
-                            -> Divert2
+                            *******[Acerca de mis padres] Por que mis padres no me contaron la verdad
+                                    Bueno lo mas probable es que sintieron mucho miedo y querian una vida normal para ti
+                                    -> EndPart
+                            *******[Acerca del portal]Como funciona un portal.
+                                Es algo muy tecnico pero en resumidas cuentas juntamos lugares muy lejanos en segundos.
+                                 -> EndPart
+                            *******[Acerca de ti]Quien eres y que eres.
+                                Soy un ser mitico de este lugar, en realidad esta no es mi forma comun, quise ser lo mas comun para que me entendieras.
+                                 -> EndPart
+                            *******[Acerca de mi deseo] Y cuando se cumplira mi deseo.
+                                Cuando termines con el invcoador, te llevare un dia antes que pasara todo, tendras otra oportunidad.
+                                 -> EndPart
+                            *******[Salir] Eso fue todo.
+                                Entonces preparate y lanzate por el barranco el portal esta en el final.
+                                -> EndPart
                         ******[no]no
                             Entonces preparate y lanzate por el barranco el portal esta en el final.
                         -> EndPart
@@ -30,7 +44,21 @@ Haz llegado casi al final del camino, me siento muy orgulloso de ti.
                     El tiempo y las cosas que has pasado demuestran que lo haras muy bien. 
                     En fin es hora que avances tienes alguna pregunta?
                     *****[si]si
-                        -> Divert2
+                         ******[Acerca de mis padres] Por que mis padres no me contaron la verdad
+                                    Bueno lo mas probable es que sintieron mucho miedo y querian una vida normal para ti
+                                    -> EndPart
+                            ******[Acerca del portal]Como funciona un portal.
+                                Es algo muy tecnico pero en resumidas cuentas juntamos lugares muy lejanos en segundos.
+                                 -> EndPart
+                            ******[Acerca de ti]Quien eres y que eres.
+                                Soy un ser mitico de este lugar, en realidad esta no es mi forma comun, quise ser lo mas comun para que me entendieras.
+                                 -> EndPart
+                            ******[Acerca de mi deseo] Y cuando se cumplira mi deseo.
+                                Cuando termines con el invcoador, te llevare un dia antes que pasara todo, tendras otra oportunidad.
+                                 -> EndPart
+                            ******[Salir] Eso fue todo.
+                                Entonces preparate y lanzate por el barranco el portal esta en el final.
+                                -> EndPart
                     *****[no]no
                         Entonces preparate y lanzate por el barranco el portal esta en el final.
                         -> EndPart
@@ -43,8 +71,22 @@ Haz llegado casi al final del camino, me siento muy orgulloso de ti.
                     ****[Podre derrotar algo asi]Crees que podre derrotar algo asi.
                     El tiempo y las cosas que has pasado demuestran que lo haras muy bien. 
                     En fin es hora que avances tienes alguna pregunta?
-                    *****[si]si
-                        -> Divert2
+                        *****[si]si
+                            ******[Acerca de mis padres] Por que mis padres no me contaron la verdad
+                                    Bueno lo mas probable es que sintieron mucho miedo y querian una vida normal para ti
+                                    -> EndPart
+                            ******[Acerca del portal]Como funciona un portal.
+                                Es algo muy tecnico pero en resumidas cuentas juntamos lugares muy lejanos en segundos.
+                                 -> EndPart
+                            ******[Acerca de ti]Quien eres y que eres.
+                                Soy un ser mitico de este lugar, en realidad esta no es mi forma comun, quise ser lo mas comun para que me entendieras.
+                                 -> EndPart
+                            ******[Acerca de mi deseo] Y cuando se cumplira mi deseo.
+                                Cuando termines con el invcoador, te llevare un dia antes que pasara todo, tendras otra oportunidad.
+                                 -> EndPart
+                            ******[Salir] Eso fue todo.
+                                Entonces preparate y lanzate por el barranco el portal esta en el final.
+                                -> EndPart
                     *****[no]no
                         Entonces preparate y lanzate por el barranco el portal esta en el final.
                         -> EndPart
@@ -52,27 +94,24 @@ Haz llegado casi al final del camino, me siento muy orgulloso de ti.
                     El tiempo y las cosas que has pasado demuestran que lo haras muy bien. 
                     En fin es hora que avances tienes alguna pregunta?
                     ***[si]si
-                        -> Divert2
+                        ****[Acerca de mis padres] Por que mis padres no me contaron la verdad
+                                    Bueno lo mas probable es que sintieron mucho miedo y querian una vida normal para ti
+                            *****[Acerca del portal]Como funciona un portal.
+                                Es algo muy tecnico pero en resumidas cuentas juntamos lugares muy lejanos en segundos.
+                                 -> EndPart
+                            *****[Acerca de ti]Quien eres y que eres.
+                                Soy un ser mitico de este lugar, en realidad esta no es mi forma comun, quise ser lo mas comun para que me entendieras.
+                                 -> EndPart
+                            *****[Acerca de mi deseo] Y cuando se cumplira mi deseo.
+                                Cuando termines con el invcoador, te llevare un dia antes que pasara todo, tendras otra oportunidad.
+                                 -> EndPart
+                            *****[Salir] Eso fue todo.
+                                Entonces preparate y lanzate por el barranco el portal esta en el final.
+                                -> EndPart
                     ***[no]no
                         Entonces preparate y lanzate por el barranco el portal esta en el final.
                         -> EndPart
-                        
-== Divert2 ==
-Esta bien preguntame, algo
-    *[Acerca de mis padres] Por que mis padres no me contaron la verdad
-                                    Bueno lo mas probable es que sintieron mucho miedo y querian una vida normal para ti
-                            **[Acerca del portal]Como funciona un portal.
-                                Es algo muy tecnico pero en resumidas cuentas juntamos lugares muy lejanos en segundos.
-                                 -> Divert2
-                            **[Acerca de ti]Quien eres y que eres.
-                                Soy un ser mitico de este lugar, en realidad esta no es mi forma comun, quise ser lo mas comun para que me entendieras.
-                                -> Divert2
-                            **[Acerca de mi deseo] Y cuando se cumplira mi deseo.
-                                Cuando termines con el invcoador, te llevare un dia antes que pasara todo, tendras otra oportunidad.
-                                -> Divert2
-                            **[Salir] Eso fue todo.
-                                Entonces preparate y lanzate por el barranco el portal esta en el final.
-                                -> EndPart
+    
 
 
 == EndPart ==
