@@ -9,9 +9,13 @@ This is a indie game made by me, you can put new levels, sounds, improve the scr
 
 I also say that it is my first game, so some scripts could be improved, and many sprites too.
 
+##  Synopsis
+
+After making a big mistake, he just looks for a second chance, decides to sleep and wakes up in The Silent Side. A wonderful place and where he will have to show his bravery ...
+
 ## Installation 
 
-You can download the game [here](https://github.com/regalk13/The_Siltent_Side/releases/tag/1.0).
+You can download the game [here](https://github.com/regalk13/The_Siltent_Side/releases/tag/v2.0).
 
 To modify it:
 
@@ -19,6 +23,8 @@ To modify it:
 - [Aseprite](https://github.com/aseprite/aseprite) or other pixel art editor.
 - IDE like [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019).
 - [Ink](https://www.inklestudios.com/ink/) A narrative scripting language for games.
+
+Play on [itchio](https://regalk13.itch.io/the-silent-side) for better experience download the game and create a local server.
 
 ## Preview
 
