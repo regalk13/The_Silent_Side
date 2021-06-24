@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -197,16 +197,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\t       \xBFEl final?\n\n\nTe has dado cuenta tu deseo se ha cumplido,
-    aprovecha bien esta segunda oportunidad, para todos esto es imposible...\n\nEspero
-    volverte a ver y te agradesco que tuvieras tanta valentia. A\xFAn sin explicarte
-    todo a gran detalle.\n\nCumple tus sue\xF1os...\n\n\nTheodore\n\n\n\n\n\n\n\nDirector                   
-    Juan Salazar\n\nCharacter Designer          Juan Salazar, Juan Borja\n\nProgrammer                 
-    Juan Salazar\n\nBackground Designer         Juan Salazar\n\nMusic                   
-    Juan Salazar\n\nSFX                         Juan Salazar\n\nMenu Designer              
-    Juan Borja\n\nAnimation                   Juan Salazar, Juan Borja\n\nGame Creation              
-    Juan Salazar, Juan Borja\n\n\nSpecial Thanks:\n\nJuan Salazar \n\nJuan Borja\n\nHideo
-    Kojima\n\nedermunizz\n\n8-bit Universe(Music Covers)\n\n\n\t\t@RS_Games\n\t\t\n\n\n\n\n"
+  m_text: "\t        \xBFEl final?\r\n\r\n\r\nTe has dado cuenta que tu deseo se
+    ha cumplido, aprovecha bien esta segunda oportunidad, para todos esto es imposible...\r\n\r\nEspero
+    volverte a ver y te agradezco que tuvieras tanta valent\xEDa. A\xFAn sin explicarte
+    todo a gran detalle.\r\n\r\nCumple tus sue\xF1os...\r\n\n\nTheodore.\n\n\n\n                 
+    Creditos\n\nDirector                    Juan Salazar\n\nCharacter Designer         
+    Juan Salazar, Juan Borja\n\nProgrammer                  Juan Salazar\n\nBackground
+    Designer         Juan Salazar\n\nMusic                       Juan Salazar\n\nSFX                        
+    Juan Salazar\n\nMenu Designer               Juan Borja\n\nAnimation                  
+    Juan Salazar, Juan Borja\n\nGame Creation               Juan Salazar, Juan Borja\n\n\nSpecial
+    Thanks:\n\nJuan Salazar \n\nJuan Borja\n\nHideo Kojima\n\nedermunizz\n\n8-bit
+    Universe(Music Covers)\n\n\n\t\t@RS_Games\n\t\t\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a4626480d7fd0c248a7fc58819f6c001, type: 2}
   m_sharedMaterial: {fileID: 6958434560250995864, guid: a4626480d7fd0c248a7fc58819f6c001,
