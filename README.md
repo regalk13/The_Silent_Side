@@ -33,6 +33,6 @@ Great backgrounds and sounds, immersive experience
 ## Final Notes
 
 - Share how you modified the game.
-- Soon on steam and itchio.
+- Play it on [itchio](https://regalk13.itch.io/the-silent-side).
 - Thanks to those who supported
 
