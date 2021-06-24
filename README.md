@@ -30,11 +30,11 @@ Play on [itchio](https://regalk13.itch.io/the-silent-side) for better experience
 
 Pathfinding whit A.I
 
-<img src="https://github.com/regalk13/The_Silent_Side/blob/hotfix/screenshots/Game-with-AI.gif" width="60%">
+<img src="https://github.com/regalk13/The_Silent_Side/blob/main/screenshots/Game-with-AI.gif" width="60%">
 
 Great backgrounds and sounds, immersive experience
 
-<img src="https://github.com/regalk13/The_Silent_Side/blob/hotfix/screenshots/new-game.gif" width="60%">
+<img src="https://github.com/regalk13/The_Silent_Side/blob/main/screenshots/new-game.gif" width="60%">
 
 ## Final Notes
 
