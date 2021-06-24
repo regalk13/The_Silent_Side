@@ -13,7 +13,7 @@ public class loadcredits : MonoBehaviour
     }
 
     IEnumerator showTextFuntion(){
-        yield return new WaitForSeconds (59f);
+        yield return new WaitForSeconds (40f);
         SceneManager.LoadScene(Respawn);
         
     }
