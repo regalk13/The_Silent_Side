@@ -15,7 +15,7 @@ After making a big mistake, he just looks for a second chance, decides to sleep 
 
 ## Installation 
 
-You can download the game [here](https://github.com/regalk13/The_Siltent_Side/releases/tag/v2.0).
+You can download the game [here](https://github.com/regalk13/The_Silent_Side/releases/tag/v2.0).
 
 To modify it:
 
