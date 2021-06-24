@@ -23,7 +23,7 @@
                         <b>Theodore - </b>Las estrellas lo han marcado, creeme nunca falla...
                             ******[¿Me podras ayudar?]<b>Lisa - </b>De qué manera me podras ayudar
                                    <b>Theodore - </b>Será muy sencillo, para mí, pondré las manos sobre ti y tu poder saldrá.
-                                        *******[Creo que esto es un sueño]<b>Lisa - </b>No puedo creer que esto esté sucediendo es un sueño...
+                                        *******[¿Esto es un sueño?]<b>Lisa - </b>No puedo creer que esto esté sucediendo, es un sueño...
                                         <b>Theodore - </b>No lo es creeme aunque si te da más confianza podrías solo creerlo.
                                                 ********[Quiero saber algo]<b>Lisa - </b>Aunque es verdad no tengo nada que perder, no tengo motivación alguna de hacerlo
                                              <b>Theodore - </b>Entiendo tu posición, pero que piensas si cumplo un deseo por ti.
@@ -38,7 +38,7 @@
                                 <b>Theodore - </b>Bueno tendrás que tomar valor, y sacar todo tu poder, aunque te ayudare hacerlo más fácil.
                                 ******[¿Me podras ayudar?]<b>Lisa - </b>De qué manera me podras ayudar
                                    <b>Theodore - </b>Será muy sencillo, para mí, pondré las manos sobre ti y tu poder saldrá.
-                                        *******[Creo que esto es un sueño]<b>Lisa - </b>No puedo creer que esto esté sucediendo es un sueño...
+                                        *******[¿Esto es un sueño?]<b>Lisa - </b>No puedo creer que esto esté sucediendo, es un sueño...
                                            <b>Theodore - </b>No lo es creeme aunque si te da más confianza podrías solo creerlo.
                                             ********[Quiero saber algo]<b>Lisa - </b>Aunque es verdad no tengo nada que perder, no tengo motivación alguna de hacerlo
                                             <b>Theodore - </b>Entiendo tu posición, pero que piensas si cumplo un deseo por ti.
@@ -72,7 +72,7 @@
                                 <b>Theodore - </b>Bueno tendrás que tomar valor, y sacar todo tu poder, aunque te ayudare hacerlo más fácil.
                                 ******[¿Me podras ayudar?]<b>Lisa - </b>De qué manera me podras ayudar
                                     <b>Theodore - </b>Será muy sencillo, para mí, pondré las manos sobre ti y tu poder saldrá.
-                                        *******[Creo que esto es un sueño]<b>Lisa - </b>No puedo creer que esto esté sucediendo es un sueño...
+                                        *******[¿Esto es un sueño?]<b>Lisa - </b>No puedo creer que esto esté sucediendo, es un sueño...
                                             <b>Theodore - </b>No lo es creeme aunque si te da más confianza podrías solo creerlo.
                                             ********[Quiero saber algo]<b>Lisa - </b>Aunque es verdad no tengo nada que perder, no tengo motivación alguna de hacerlo
                                                 <b>Theodore - </b>Entiendo tu posición, pero que piensas si cumplo un deseo por ti.

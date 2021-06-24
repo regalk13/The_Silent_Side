@@ -94,18 +94,20 @@ Haz llegado casi al final del camino, me siento muy orgulloso de ti.
                     El tiempo y las cosas que has pasado demuestran que lo haras muy bien. 
                     En fin es hora que avances tienes alguna pregunta?
                     ***[si]si
+                        Tienes una pregunta elije bien...
                         ****[Acerca de mis padres] Por que mis padres no me contaron la verdad
                                     Bueno lo mas probable es que sintieron mucho miedo y querian una vida normal para ti
-                            *****[Acerca del portal]Como funciona un portal.
+                                     -> EndPart
+                        ****[Acerca del portal]Como funciona un portal.
                                 Es algo muy tecnico pero en resumidas cuentas juntamos lugares muy lejanos en segundos.
                                  -> EndPart
-                            *****[Acerca de ti]Quien eres y que eres.
+                        ****[Acerca de ti]Quien eres y que eres.
                                 Soy un ser mitico de este lugar, en realidad esta no es mi forma comun, quise ser lo mas comun para que me entendieras.
                                  -> EndPart
-                            *****[Acerca de mi deseo] Y cuando se cumplira mi deseo.
+                        ****[Acerca de mi deseo] Y cuando se cumplira mi deseo.
                                 Cuando termines con el invcoador, te llevare un dia antes que pasara todo, tendras otra oportunidad.
                                  -> EndPart
-                            *****[Salir] Eso fue todo.
+                        ****[Salir] Eso fue todo.
                                 Entonces preparate y lanzate por el barranco el portal esta en el final.
                                 -> EndPart
                     ***[no]no

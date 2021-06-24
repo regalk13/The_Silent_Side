@@ -1,4 +1,4 @@
-<b>Theodore - </b>Bienvenida a la jungla... No te parece un lugar más colorido y lindo. No ha sido alcanzado por la oscuridad
+<b>Theodore - </b>Bienvenida a este lugar tan hermoso, es de los pocos que no han sido alcanzados por la oscuridad.
 
  * [Estoy de acuerdo]<b>Lisa - </b>Si es un mejor lugar que los anteriores.
  * [Tenías algo para contarme]<b>Lisa - </b>Creo que tenias varias cosas por explicarme.

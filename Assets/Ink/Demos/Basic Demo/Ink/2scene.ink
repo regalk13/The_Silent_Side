@@ -15,7 +15,7 @@
     <b>Theodore - </b>Bueno sabemos de qué manera vas a evitar el renacimiento de Null, es el nombre que le pusimos.
         **[¿De qué manera?]<b>Lisa - </b>De que manera podre
             <b>Theodore - </b>Sabemos dónde está su tumba, y su invocador, tendrás que llegar antes que la ceremonia empiece y podrás terminar con todo.
-                ***[Suena sencillo] Creo que podré hacerlo
+                ***[Creo poder hacerlo]<b>Lisa - </b>Creo que podré hacerlo
                     <b>Theodore - </b>Me gusta tu actitud por cierto has pensado tu deseo...
                     ****[Si]<b>Lisa - </b>Si ya lo tengo...
                             <b>Theodore - </b>Esta bien te escucho...
@@ -28,7 +28,7 @@
                                                 ->EndPart
                 ***[Dame más detalles]<b>Lisa - </b>Quiero saber más de esto.
                     <b>Theodore - </b>Tranquila pronto lo  tendre, pero has pensado tu deseo..
-                        ****[Si] Si ya lo tengo...
+                        ****[Si]<b>Lisa - </b>Si ya lo tengo...
                             <b>Theodore - </b>Esta bien te escucho...
                                 *****[Contar deseo]<b>Lisa - </b>Sucede que confíe, fui muy tonta y ahora mis fotos están en todo internet, quisiera volver el tiempo y tener otra oportunidad.
                                         <b>Theodore - </b>Dalo por hecho, pero tienes que prometer que ayudaras a mi universo de ser destruido.
@@ -38,7 +38,7 @@
                                                 <b>Theodore - </b>Puede ser impactante, pero ya no puedo explicarte mas, es hora de movernos, algunos subditos de Null, se encuentran por la zona.
                                                 ->EndPart
                                         
- *[Quiero irme a casa]<b>Lisa - </b>Quiero ir a casa
+ *[¿Ahora puedo volver a casa?]<b>Lisa - </b>Quiero ir a casa
     <b>Theodore - </b>No puedes irte a casa en este momento, escucha y entiende el porqué.
     -> Divert1
     
